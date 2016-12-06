@@ -1,0 +1,243 @@
+/* font-family: "RalewayRegular"; */
+@font-face {
+    font-family: "RalewayRegular";
+    src: url("../fonts/RalewayRegular/RalewayRegular.eot");
+    src: url("../fonts/RalewayRegular/RalewayRegular.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/RalewayRegular/RalewayRegular.woff") format("woff"),
+    url("../fonts/RalewayRegular/RalewayRegular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+/* font-family: "RalewayThin"; */
+@font-face {
+    font-family: "RalewayThin";
+    src: url("../fonts/RalewayThin/RalewayThin.eot");
+    src: url("../fonts/RalewayThin/RalewayThin.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/RalewayThin/RalewayThin.woff") format("woff"),
+    url("../fonts/RalewayThin/RalewayThin.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+/* font-family: "RalewayExtraLight"; */
+@font-face {
+    font-family: "RalewayExtraLight";
+    src: url("../fonts/RalewayExtraLight/RalewayExtraLight.eot");
+    src: url("../fonts/RalewayExtraLight/RalewayExtraLight.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/RalewayExtraLight/RalewayExtraLight.woff") format("woff"),
+    url("../fonts/RalewayExtraLight/RalewayExtraLight.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+/* font-family: "RalewayLight"; */
+@font-face {
+    font-family: "RalewayLight";
+    src: url("../fonts/RalewayLight/RalewayLight.eot");
+    src: url("../fonts/RalewayLight/RalewayLight.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/RalewayLight/RalewayLight.woff") format("woff"),
+    url("../fonts/RalewayLight/RalewayLight.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+/* font-family: "RalewayMedium"; */
+@font-face {
+    font-family: "RalewayMedium";
+    src: url("../fonts/RalewayMedium/RalewayMedium.eot");
+    src: url("../fonts/RalewayMedium/RalewayMedium.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/RalewayMedium/RalewayMedium.woff") format("woff"),
+    url("../fonts/RalewayMedium/RalewayMedium.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+/* font-family: "RalewaySemiBold"; */
+@font-face {
+    font-family: "RalewaySemiBold";
+    src: url("../fonts/RalewaySemiBold/RalewaySemiBold.eot");
+    src: url("../fonts/RalewaySemiBold/RalewaySemiBold.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/RalewaySemiBold/RalewaySemiBold.woff") format("woff"),
+    url("../fonts/RalewaySemiBold/RalewaySemiBold.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+/* font-family: "RalewayBold"; */
+@font-face {
+    font-family: "RalewayBold";
+    src: url("../fonts/RalewayBold/RalewayBold.eot");
+    src: url("../fonts/RalewayBold/RalewayBold.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/RalewayBold/RalewayBold.woff") format("woff"),
+    url("../fonts/RalewayBold/RalewayBold.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+/* font-family: "RalewayExtraBold"; */
+@font-face {
+    font-family: "RalewayExtraBold";
+    src: url("../fonts/RalewayExtraBold/RalewayExtraBold.eot");
+    src: url("../fonts/RalewayExtraBold/RalewayExtraBold.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/RalewayExtraBold/RalewayExtraBold.woff") format("woff"),
+    url("../fonts/RalewayExtraBold/RalewayExtraBold.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+/* font-family: "RalewayBlack"; */
+@font-face {
+    font-family: "RalewayBlack";
+    src: url("../fonts/RalewayBlack/RalewayBlack.eot");
+    src: url("../fonts/RalewayBlack/RalewayBlack.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/RalewayBlack/RalewayBlack.woff") format("woff"),
+    url("../fonts/RalewayBlack/RalewayBlack.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+#toUp {
+    width: 75px;
+    height: 75px;
+    text-align: center;
+    padding: .2%;
+    position: fixed;
+    bottom: 5%;
+    right: 5%;
+    cursor: pointer;
+    display: none;
+    color: #333;
+    font-family: 'Exo 2', sans-serif;
+    font-size: 15px;
+    filter: alpha(Opacity=25);
+    opacity: 0.5;
+}
+
+.media {
+    margin: 1% auto;
+    text-decoration: none;
+}
+
+.media-body {
+    color: #595c56;
+    display: table-cell;
+    vertical-align: middle;
+
+}
+
+.media a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.media:hover {
+    text-decoration: none;
+    background-color: #f1f1f1;
+    transition: .3s;
+}
+
+.media img {
+    width: 200px;
+    height: 135px;
+}
+
+#navbar .active {
+    color: #fff;
+    background-color: #080808
+}
+
+.list-group a:hover {
+    text-decoration: none;
+}
+
+.col-xs-6.col-md-2 a:hover {
+    text-decoration: none;
+}
+
+.media-body:hover {
+    font-size: 90%;
+}
+
+/*Modal window*/
+#bg_popup {
+    position: fixed;
+    z-index: 99999;
+    background: rgba(0, 0, 0, 0.8);
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: none;
+}
+
+#popup {
+    background: #e4e4e4;
+    width: 550px;
+    margin: 25% auto;
+    padding: 5px 20px;
+    position: relative;
+}
+
+/* submenu */
+
+.dropdown-submenu {
+    position:relative;
+}
+.dropdown-submenu>.dropdown-menu {
+    top:0;
+    left:100%;
+    margin-top:-6px;
+    margin-left:-1px;
+    -webkit-border-radius:0 6px 6px 6px;
+    -moz-border-radius:0 6px 6px 6px;
+    border-radius:0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+    display:block;
+}
+.dropdown-submenu>a:after {
+    display:block;
+    content:" ";
+    float:right;
+    width:0;
+    height:0;
+    border-color:transparent;
+    border-style:solid;
+    border-width:5px 0 5px 5px;
+    border-left-color:#cccccc;
+    margin-top:5px;
+    margin-right:-10px;
+}
+.dropdown-submenu:hover>a:after {
+    border-left-color:#ffffff;
+}
+.dropdown-submenu.pull-left {
+    float:none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+    left:-100%;
+    margin-left:10px;
+    -webkit-border-radius:6px 0 6px 6px;
+    -moz-border-radius:6px 0 6px 6px;
+    border-radius:6px 0 6px 6px;
+}
+
+form {
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+}
+
+form input {
+    display: block;
+    text-align: center;
+}
+form button {
+    width: 100%;
+    display: block;
+    text-align: center;
+}
